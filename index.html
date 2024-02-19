@@ -1,32 +1,204 @@
+<!-- !!!!!!!!!记得每次更新时间 -->
+<!-- ?????为啥有单数有复数 -->
+<!-- ？？？？？学术经历能不能换个单词 -->
+
+
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>My Personal Website</title>
-  </head>
-  <body>
-    <header style="display:flex; justify-content:space-between; align-items:center; background-color: bisque;">
-      <h1 style="margin:0;">My Introduction</h1>
-      <nav style="margin:0;">
-          <ul style="display:flex; list-style:none; margin:0; padding:0;">
-  <li style="margin-right:20px;"><a href="#education" style="color:black; text-decoration:none;" onmouseover="this.style.color='red'; this.style.backgroundColor='yellow'" onmouseout="this.style.color='black'; this.style.backgroundColor='transparent'">Education</a></li>
-  <li style="margin-right:20px;"><a href="#awards" style="color:black; text-decoration:none;" onmouseover="this.style.color='red'; this.style.backgroundColor='yellow'" onmouseout="this.style.color='black'; this.style.backgroundColor='transparent'">Awards</a></li>
-  <li style="margin-right:20px;"><a href="#research-ideas" style="color:black; text-decoration:none;" onmouseover="this.style.color='red'; this.style.backgroundColor='yellow'" onmouseout="this.style.color='black'; this.style.backgroundColor='transparent'">Research Ideas</a></li>
-          </ul>
-          </nav>
-      </header>
-    <main>
-      <section id="education">
-        <h2>My Education</h2>
-        <p>Insert your education details here.</p>
-      </section>
-      <section id="awards">
-        <h2>My Awards</h2>
-        <p>Insert your awards details here.</p>
-      </section>
-      <section id="research-ideas">
-        <h2>My Research Ideas</h2>
-        <p>Insert your research ideas here.</p>
-      </section>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Steven White</title>
+	<link rel="shortcut icon" href="./icon2.png">
+    <link rel="stylesheet" href="./testMyPage.css">
+</head>
+<body>
+    <header style="font-family: 'Roboto', sans-serif; font-weight: 300; background-color: lightblue; position: fixed; top: 0; width: 100%; height: 70px; margin-left: -8px;">
+        <span style="font-size: 20px; margin-left: 20px; margin-top: 20px; position: absolute; top: 0;">Steven White</span>
+        <nav style="display: inline-block; position: fixed; right: 0; margin-top: 20px;">
+            <ul style="display: inline-block; margin: 0; padding: 0; list-style-type: none;">
+                <!-- <li style="display: inline-block; margin-right: 20px;"><a href="#introduction" style="text-decoration: none; font-size: 20px;">Introduction</a></li> -->
+                <li style="display: inline-block; margin-right: 20px;"><a href="#research" style="text-decoration: none; font-size: 20px;">Research</a></li>
+				<li style="display: inline-block; margin-right: 20px;"><a href="#academic experience" style="text-decoration: none; font-size: 20px;">Academic Experience</a></li>
+                <li style="display: inline-block; margin-right: 20px;"><a href="#education" style="text-decoration: none; font-size: 20px;">Education</a></li>
+				<!-- <li style="display: inline-block; margin-right: 20px;"><a href="#Professional Experience" style="text-decoration: none; font-size: 20px;">Professional Experience</a></li> -->
+				<li style="display: inline-block; margin-right: 20px;"><a href="#Skills" style="text-decoration: none; font-size: 20px;">Skills</a></li>
+                <li style="display: inline-block; margin-right: 20px;"><a href="#awards" style="text-decoration: none; font-size: 20px;">Awards</a></li>
+                <!-- <li style="display: inline-block; margin-right: 20px;"><a href="#publications" style="text-decoration: none; font-size: 20px;">Publications</a></li> -->
+                <!-- <li style="display: inline-block; margin-right: 20px;"><a href="#conference" style="text-decoration: none; font-size: 20px;">Conference</a></li> -->
+				<li style="display: inline-block; margin-right: 20px;"><a href="#Extracurricular Activities" style="text-decoration: none; font-size: 20px;">Activities</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main style="font-family: 'Roboto', sans-serif; font-weight: 300; margin-left: 30px; margin-right: 30px; margin-top: 110px;">
+        <h1>Langxu Bai</h1>
+		<p>Undergraduate at Nankai University, China</p>
+        <p>Email: <a href="mailto:lxbai@mail.nankai.edu.cn">lxbai@mail.nankai.edu.cn</p>
+        <p>Research Interests: Quantum Machine Learning, Quantuam Information, Complex Systems</p>
+		<p>Major Grades：86.6/100  Rank:18%</p>
+		<br>
+        <a href="./CV_LangxuBai.pdf" target="" class="hrefA">Get My CV Please Click Here.</a>
+        <!-- <br>
+        <a href="./ChinesePages.html" target="" class="hrefA">Chinese Pages Please Click Here.</a> -->
+        <hr>
+        <br>
+
+        <dl>
+            <dt><h2 id="introduction" style="font-size: medium; font-weight: 400;">Introduction</h2></dt>
+            <dd><p class="normalContent">I am an undergraduate student majoring in Physics, driven by a deep fascination for unraveling the mysteries of the natural world. My passion for understanding the fundamental principles that govern the universe has guided my academic journey. With a solid foundation in linear algebra, calculus, group theory, classical mechanics and quantum mechanics, I have developed strong analytical and problem-solving skills through coursework and hands-on laboratory experiences. I aspire to contribute to cutting-edge research, drive innovation, and collaborate with fellow scientists to push the boundaries of human knowledge.</p></dd>
+
+			<dd><p class="normalContent">My research interests include <span class="specialContent">the geometrical structure of quantum information</span> and <span class="specialContent"> the interpretable condensed matter
+ 			statistics</span>.</p></dd>
+				
+				<!-- I am a physics undergraduate student at Nankai University now and major in Quantuam Machine Learning. I follow <span class="specialContent">Prof. Li-Wei Yu</span> who has been working in this field for a long time. We are working on Barren Plateaus in quantuam machine learning recently. I am also working on a research on gainless parity-time symmetric optical system directed by <span class="specialContent">Prof. Huanan Li</span> as Tianjin Innovation and Entrepreneurship Training Program for College Students. -->
+
+				<!-- electromagnetism, quantum mechanics, and thermodynamics -->
+        </dl>
+        <br>
+
+        <dl>
+            <dt><h2 id="research" style="font-size: medium; font-weight: 400;">Research</h2></dt>
+			<dd><ul>
+                <li><p class="duration">Barren Plateaus in quantuam machine learning directed by <span class="specialContent">Prof. Li-Wei Yu</span></p></li>
+				<p class="normalContent">In our research, we mainly focus on the Barren Plateaus phenomenon that may be widely present in different quantum machine learning algorithms in MPS systems, as well as possible methods to solve the Barren Plateaus phenomenon. By calculating the expected values and variances of quantum circuits under different algorithms, we can prove that any quantum machine learning algorithm based on MPS systems cannot be effectively trained. Some notes on papers: <dd><a href="Notes for Barren Plateaus in Quantum Neural Network Training Landscapes.pdf" style="text-decoration: none;">Notes for Barren Plateaus in Quantum Neural Network Training Landscapes</dd></p>
+				<li><p class="duration">Tensor Networks Algorithm in Machine Learning directed by <span class="specialContent">Prof. Pan Zhang</span>, Institute of Theoretical Physics, Chinese Academy of Sciences</p></li>
+				<p class="normalContent">I invested significant time in studying the basic principles and mathematical expressions of tensor networks. Through reading specialized literature and participating in seminars, I gained a preliminary understanding of tensor network construction and applications. I actively engaged in discussions within the research group, exchanging ideas with mentors and colleagues. These discussions not only enhanced my understanding of tensor networks but also provided insights into the latest developments and challenges in the research field. During the summer research, I also learned to use programming tools and software related to tensor networks. These skills include ITensor(C++) and JuliaTensor (Julia), laying a solid foundation for my future research endeavors.</p>
+				<li><p class="duration">Gainless parity-time symmetric optical system directed by <span class="specialContent">Prof. Huanan Li</span> as Tianjin Innovation and Entrepreneurship Training Program for College Students</p></li>
+				<p class="normalContent">Non-hermitian systems exhibit many novel physical phenomena quite different from their Hermitian counterparts. Currently, the realization of parity-time symmetry in passive non-Hermitian systems is a frontier in non-Hermitian physics. This project explores the realization of unique scattering phenomena of parity-time symmetric optical systems under evanescent wave excitations in the platforms based on continuous media. We unveil the inherent physical mechanisms by studying the effective Hamiltonian of the systems obtained from the quasi-normal mode method. Our study will promote people's in-depth understanding of non-Hermitian systems.</p>
+				<li><p class="duration">Kitaev spin model directed by <span class="specialContent">Prof. Wang Yang</span></p></li>
+				<p class="normalContent">In my current research endeavors, I have embarked on an exploration of the intriguing Kitaev spin model. As a junior majoring in physics, I have recently delved into this fascinating field, seeking to unravel the complexities of its quantum spin liquid ground state and exotic phases of matter. The Kitaev spin model, with its unique blend of anisotropic interactions and the emergence of Majorana fermions, presents an exciting challenge that aligns with my broad interests in physics, mathematics, and complexity. Although I am in the early stages of understanding this intricate model, my enthusiasm and dedication drive me to grasp its intricacies and contribute meaningfully to the field. </p>
+            </ul></dd>
+			<!-- 
+			<br>
+			<dd><a href="./FaradayWavesLast_20230522142157.pdf" style="text-decoration: none;">Research on Faraday Waves from IYPT 2023</dd>
+			<br> -->
+            <!-- <dd><a href="https://www.zhihu.com/people/little-prince-76-76/posts" style="text-decoration: none;">Click Here to Zhihu Account to Read More</a></dd> -->
+        </dl>
+        <br>
+
+		<dl>
+            <dt><h2 id="academic experience" style="font-size: medium; font-weight: 400;">Academic Experience</h2></dt>
+			<dd><ul>
+				<li><p class="duration">[ 2023/07 ] Quantum Phase Transition in Open Quantum Systems directed by <span class="specialContent">Prof. Shu Chen</span>, Institute of Physics, Chinese Academy of Sciences as Yan Jici Project of Institute of Physics, Chinese Academy of Sciences</p></li>
+				<p class="normalContent">Learn the basics of superconductivity theory including London Theory, Ginzburg-Landau Theory, BCS Theory, Density Functional Theory and the Monte-Carlo simulation of Ising model</p>
+				<li><p class="duration">[ 2023/06 - 2023/09 ] Quantum Information and Quantum Calculation directed by <span class="specialContent">Prof. Zhaofeng Su</span>, USTC as <a href="https://faculty.ustc.edu.cn/zfsu/zh_CN/article/593657/content/3476.htm#article" style="text-decoration: none;">The Fourth ( 2023 ) Quantum Computing Talent Training Plan, Zhaofeng Su, USTC</p></li>
+				<p class="normalContent">Learn the basics through the Chap. 1 - 6 of <span class="italic-text">Quantum Computation and Quantum Information, Nielsen M A, Chuang I L.</span>
+            </ul></dd>
+        </dl>
+        <br>
+
+        <dl>
+            <dt><h2 id="education" style="font-size: medium; font-weight: 400;">Education</h2></dt>
+            <dd><ul>
+                <li><p class="duration">[ 2022/09 - Present ] School of Physics, Nankai University</p></li>
+				<li><p class="duration">[ 2021/09 - 2022/06 ] School of Artificial Intelligence, Nankai University</p></li>
+                <!-- <li><p class="duration">2015/09-2021/06 The High School Affiliated to Xi'an Jiao Tong University</p></li> -->
+            </ul></dd>
+        </dl>
+        <br>
+
+		<!-- <dl>
+            <dt><h2 id="Professional Experience" style="font-size: medium; font-weight: 400;">Professional Experience</h2></dt>
+            <dd><ul>
+                <li><p class="duration"></p></li>
+				<li><p class="duration"></p></li>
+            </ul></dd>
+        </dl>
+        <br> -->
+
+		<dl>
+            <dt><h2 id="Skills" style="font-size: medium; font-weight: 400;">Skills</h2></dt>
+            <dd><ul>
+                <li><p class="date">Coding: C++(including basics of data structure), Python(opencv, scipy, numpy, scikit-learn, pytorch), LaTex, Mathematica, MATLAB, HTML, Markdown</p></li>
+				<li><p class="date">Experiment Skills: Basic modern experiment skills including XRD, MRI, microscope, micro-mechanical exfoliation, basic design and construction of the optical experiment.</p></li>
+				<!-- <br> -->
+				<!-- <li><p class="date">TOEFL grades: 100</p></li> -->
+				<!-- <li><p class="date">……</p></li> -->
+            </ul></dd>
+        </dl>
+		<br>
+
+        <dl>
+            <dt><h2 id="awards" style="font-size: medium; font-weight: 400;">Awards</h2></dt>
+            <dd><ul>
+				<li><p class="date">[ 2023/10 ] Outstanding Student Award, School of Physics, Nankai University</p></li>
+				<li><p class="date">[ 2023/07 ] Selected by The Fourth ( 2023 ) Quantum Computing Talent Training Plan, more info please click <a href="https://faculty.ustc.edu.cn/zfsu/zh_CN/zhym/593642/list/index.htm" style="text-decoration: none;">Quantum Computing Talent Training Plan, Zhaofeng Su, USTC</p></li>
+				<li><p class="date">[ 2023/05 ] Third Prize of Nankai University Young Physicists’ Tournament as the captain of the team</p></li>
+				<li><p class="date">[ 2023/04 ] Selected by Tianjin Innovation and Entrepreneurship Training Program for College Students</p></li>
+				<li><p class="date">[ 2022/12 ] Selected by Yan Jici Project of Institute of Physics, Chinese Academy of Sciences</p></li>
+				<li><p class="date">[ 2022/09 ] Nankai University Scholarship on Community Service</p></li>
+                <li><p class="date">[ 2022/05 ] First Prize of Star Fire Award, School of Electronic Information and Optical Engineering, Nankai University</p></li>
+			</ul></dd>
+        </dl>
+        <br>
+
+        <!-- <dl>
+            <dt><h2 id="publications" style="font-size: medium; font-weight: 400;">Publications</h2></dt>
+            <dd><p class="date">None</p></dd>
+        </dl>
+        <br>
+
+        <dl>
+            <dt><h2 id="conference" style="font-size: medium; font-weight: 400;">Conference</h2></dt>
+        </dl>
+		<br> -->
+
+		
+
+		<dl>
+            <dt><h2 id="Extracurricular Activities" style="font-size: medium; font-weight: 400;">Extracurricular Activities</h2></dt>
+            <dd><ul>
+				<li><p class="date">[ 2022/09 - 2023/06 ] Vice Director of Department of Research of Student Affairs Committee, Nankai University</p></li>                
+				<li><p class="date">[ 2021/09 - 2022/06 ] Monitor of School of Electronic Information and Optical Engineering, Nankai University</p></li>
+				<li><p class="date">[ 2021/09 - 2022/06 ] Staff member of Extracurricular Activity Guidance Center, Nankai University</p></li>
+				<li><p class="date">[ 2021/09 - 2022/06 ] Staff member of Organization Department, Nankai University</p></li>
+				<br>
+				<li><p class="date">[ 2023/10 ] Excellent Proposal Award 2023, School of Physics, Nankai University</p></li>
+				<li><p class="date">[ 2022/10 ] Community Service Excellent Team Parade, Nankai University: volunteer to promote Smart Agricultural Tools to farmers in rural areas of Jizhou District, Tianjin</p></li>
+				<li><p class="date">[ 2022/04 ] Third Place of Dean Cup of the badminton championships team events</p></li>	
+				<br>
+				<li><p class="date">A total of 100 hours of volunteer over past two years</p></li>
+            </ul></dd>
+        </dl>
     </main>
-  </body>
+
+    <footer>
+        <div style="font-family: 'Roboto', sans-serif; font-size: smaller; text-align:center; margin-bottom: 40px; margin-top: 40px;">© Copyright 2023 Steven White. Last updated: Feb. 2, 2024.</div>
+    </footer>
+
+    <!-- Add a button to scroll to the top of the page -->
+    <button onclick="topFunction()" id="myBtn" title="Go to top">TOP</button>
+
+    <script>
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {scrollFunction()};
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                document.getElementById("myBtn").style.display = "block";
+                document.getElementById("myBtn").style.position = "fixed";
+                document.getElementById("myBtn").style.bottom = "100px";
+                document.getElementById("myBtn").style.right = "100px";
+                document.getElementById("myBtn").style.border = "none"; // 不要边框
+                document.getElementById("myBtn").style.backgroundColor = "lightblue"; // add this line to change background color
+                document.getElementById("myBtn").style.borderRadius = "50%"; // add this line to make the button round
+                document.getElementById("myBtn").style.width = "50px"; // add this line to make the button wider
+                document.getElementById("myBtn").style.height = "50px"; // add this line to make the button taller
+                document.getElementById("myBtn").style.fontSize = "15px"; // add this line to make the font size larger
+            } else {
+                document.getElementById("myBtn").style.display = "none";
+                document.body.style.backgroundColor = "white"; // add this line to change background color back to white
+            }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0; // For Safari
+            document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+        }
+    </script>
+</body>
 </html>
+
