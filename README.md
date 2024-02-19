@@ -2,7 +2,7 @@
 - 👀 I’m interested in complexity and system science
 - 🌱 I’m currently learning C++ ,python and html
 - 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me lswwem123@163.com
+- 📫 How to reach me lswgem123@gmail.com
 
 <!---
 StevenWhite123/StevenWhite123 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
