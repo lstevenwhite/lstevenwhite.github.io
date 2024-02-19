@@ -1,0 +1,50 @@
+.normalContent{
+    font-family: 'Roboto', sans-serif; font-weight: 300; line-height:25px; 
+	/* letter-spacing:1px; */
+}
+.specialContent{
+    font: italic 700 15px sans-serif;
+    /* text-decoration: underline; */
+}
+.duration{
+    font-family: 'Roboto', sans-serif; font-weight: 300;
+}
+.date{
+    font-family: 'Roboto', sans-serif; font-weight: 300;
+}
+.hrefA{
+    text-decoration: none;
+}
+.headerleft{
+    text-align: left;
+}
+.headerright{
+    text-align: right;
+}
+
+th{
+    text-align: center;
+}
+td{
+    text-align: center;
+}
+a{
+    color: black;
+}
+a:hover{
+    background-color: darkgray;
+}
+
+.test{
+    text-indent: 32px;
+    /* 32px太多啦 */
+    text-indent: 2em;
+    /* em指当前字体大小 */
+    line-height: 1.5;
+    /* 可以写在font里面 */
+}
+
+
+.italic-text {
+font-style: italic;
+}
